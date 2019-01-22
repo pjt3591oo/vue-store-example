@@ -1,4 +1,7 @@
-# store sample
+# vue sample
+
+* store
+* mixin
 
 ### dependencies install
 
