@@ -18,7 +18,7 @@
 <script>
   import { mapState, mapActions, mapGetters } from 'vuex'
   import MainLinks from '../components/MainLinks'
-  
+  import testMixin from '../mixin/test.js'
 
   export default {
     computed: {
@@ -29,7 +29,13 @@
         getId: 'get_id'
       })
     },
-    
+
+    mixins: [testMixin],
+
+    created() {
+      this.helloworld()
+    },
+
     components: {
       MainLinks
     },
