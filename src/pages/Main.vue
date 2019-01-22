@@ -33,6 +33,7 @@
     mixins: [testMixin],
 
     created() {
+      // mixin에 정의된 데이터와 method
       console.log(this.d1)
       console.log(this.d2)
       this.helloworld()
