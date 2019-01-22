@@ -1,4 +1,4 @@
-# pjt
+# store sample
 
 ### dependencies install
 
