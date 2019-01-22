@@ -33,6 +33,8 @@
     mixins: [testMixin],
 
     created() {
+      console.log(this.d1)
+      console.log(this.d2)
       this.helloworld()
     },
 
